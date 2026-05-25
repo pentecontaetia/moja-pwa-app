@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jednostavni novcanik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wallet">
+        <h1>Jednostavni novcanik</h1>
+
+        <button class="toggle-apoeni" type="button">Sakrij apoene</button>
+
+        <section class="app" aria-label="Dodaj apoen">
+            <button class="apoen" type="button" data-value="1">1 KM</button>
+            <button class="apoen" type="button" data-value="2">2 KM</button>
+            <button class="apoen" type="button" data-value="5">5 KM</button>
+            <button class="apoen" type="button" data-value="10">10 KM</button>
+            <button class="apoen" type="button" data-value="20">20 KM</button>
+        </section>
+
+        <section class="boxes">
+            <div class="total">
+                <span>Ukupno</span>
+                <div class="box"></div>
+            </div>
+
+            <div class="counts">
+                <h2>Apoeni</h2>
+                <p><span>1 KM</span><strong class="one"></strong></p>
+                <p><span>2 KM</span><strong class="two"></strong></p>
+                <p><span>5 KM</span><strong class="five"></strong></p>
+                <p><span>10 KM</span><strong class="ten"></strong></p>
+                <p><span>20 KM</span><strong class="twenty"></strong></p>
+            </div>
+        </section>
+
+        <div class="actions">
+            <button class="reset" type="button">Resetuj novcanik</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
